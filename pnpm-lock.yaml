@@ -398,6 +398,7 @@ importers:
     specifiers:
       '@opentelemetry/api': ^1.1.0
       '@opentelemetry/sdk-trace-base': ^1.4.0
+      '@planetscale/database': ^1.3.0
       '@prisma/debug': workspace:*
       '@prisma/engines': workspace:*
       '@prisma/generator-helper': workspace:*
@@ -421,6 +422,7 @@ importers:
     dependencies:
       '@opentelemetry/api': 1.1.0
       '@opentelemetry/sdk-trace-base': 1.6.0_@opentelemetry+api@1.1.0
+      '@planetscale/database': 1.3.0
       '@prisma/debug': link:../debug
       '@prisma/engines': link:../engines
       '@prisma/generator-helper': link:../generator-helper
@@ -2451,6 +2453,11 @@ packages:
   /@opentelemetry/semantic-conventions/1.6.0:
     resolution: {integrity: sha512-aPfcBeLErM/PPiAuAbNFLN5sNbZLc3KZlar27uohllN8Zs6jJbHyJU1y7cMA6W/zuq+thkaG8mujiS+3iD/FWQ==}
     engines: {node: '>=14'}
+
+  /@planetscale/database/1.3.0:
+    resolution: {integrity: sha512-NtXhNxuniCajVyQrDIap8m7tVF+SNdIiUA9JSoxR8gGYWyuqasT5BzHHMxBz1sR4icWZW5XIRYZuQcX0TzzjUw==}
+    engines: {node: '>=16'}
+    dev: false
 
   /@prisma/engines-version/4.4.0-12.ef027724572e12df6f7ce8c487bd5579b008cd71:
     resolution: {integrity: sha512-4S80O9hbIblF/QTvUqCpKlOpWVSXuBtmm1sP7oDv8vB+rpYE5MRevgcLZZZ4cO6MzMSqooXlSYx4RDrCvS9ZCA==}
